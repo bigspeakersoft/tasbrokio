@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <meta name="googlebot" content="noindex, nofollow, noarchive" />
+  <meta name="referrer" content="no-referrer" />
+  <title>Tasbrokio – Datenschutzerklärung / Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f4f6fa; --card: #fff; --text: #192435; --muted: #536277; --line: #d8e0ea; --accent: #155bc0; --notice: #fff2d9; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 1rem/1.7 system-ui, sans-serif; }
+    main { max-width: 900px; margin: 2rem auto; padding: clamp(1.2rem, 4vw, 3rem); background: var(--card); border: 1px solid var(--line); border-radius: 16px; }
+    h1 { font-size: clamp(1.8rem, 5vw, 2.5rem); line-height: 1.2; }
+    h2 { margin-top: 2rem; line-height: 1.35; font-size: 1.3rem; }
+    p, ul { margin: .8rem 0; }
+    li { margin: .35rem 0; }
+    a { color: var(--accent); text-underline-offset: .2em; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+    nav { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .meta { color: var(--muted); }
+    .notice { padding: 1rem 1.2rem; border-radius: 8px; background: var(--notice); border: 1px solid var(--line); }
+    .placeholder { font-weight: 650; overflow-wrap: anywhere; }
+    address { font-style: normal; }
+    section { scroll-margin-top: 1rem; }
+    hr { margin: 3rem 0; border: 0; border-top: 1px solid var(--line); }
+    @media (prefers-color-scheme: dark) { :root { --bg: #101720; --card: #18222f; --text: #eef2f7; --muted: #b5c2d2; --line: #3a485b; --accent: #94beff; --notice: #382d19; } }
+    @media (max-width: 600px) { main { margin: 0; border: 0; border-radius: 0; } }
+    @media print { :root { --bg: white; --card: white; --text: black; --muted: #333; --line: #aaa; --accent: black; --notice: #eee; } main { margin: 0; border: 0; } nav { display: none; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="meta">Tasbrokio · Android · com.tasbrokio.app</p>
+    <h1>Datenschutzerklärung<br /><span lang="en">Privacy Policy</span></h1>
+    <nav aria-label="Sprachauswahl / Language selection">
+      <a href="#de" lang="de">Deutsch</a>
+      <a href="#en" lang="en">English</a>
+    </nav>
+  </header>
+
+  <section id="de" lang="de" aria-labelledby="de-title">
+    <h2 id="de-title">Datenschutzerklärung für Tasbrokio</h2>
+    <p class="meta">Stand: 18. Oktober 2026</p>
+    <p>Diese Erklärung beschreibt die Verarbeitung personenbezogener Daten bei der Nutzung der Android-App Tasbrokio und beim Abruf dieser Informationsseite. Tasbrokio dient der Anzeige und Steuerung lokaler Smart-Home-Systeme.</p>
+
+    <h2>1. Verantwortlicher und Kontakt</h2>
+    <address>
+      Datenschutz-Kontakt: <a href="mailto:bigspeakersoft@gmail.com">bigspeakersoft@gmail.com</a>
+    </address>
+
+    <h2>2. Lokale Verarbeitung</h2>
+    <p>Tasbrokio benötigt kein Benutzerkonto beim App-Anbieter und nutzt keinen eigenen Smart-Home-Cloud-Dienst. Die App sendet keine Daten an uns als Entwickler. Konfigurationen, eigene Bilder, Einstellungen und Zugangsdaten werden auf deinem Android-Gerät gespeichert. Zur Anzeige, Steuerung und Gerätesuche kommuniziert die App mit deinen eingerichteten lokalen Geräten und Servern. Dabei werden Netzwerkadressen, Anfragen, Steuerbefehle und gegebenenfalls Zugangsdaten übertragen sowie Gerätezustände, Messwerte und Kamerabilder einschließlich gegebenenfalls Audio abgerufen.</p>
+    <p>Eingebettete lokale Webseiten können Cookies und lokalen Webspeicher verwenden und eingegebene Daten an ihren Dienst senden. Für die Verarbeitung durch verbundene Dienste gelten auch die Datenschutzinformationen ihrer Betreiber.</p>
+    <p>Smart-Home-Verbindungen werden technisch auf lokale Netzwerkziele beschränkt. Konfigurationen und Einstellungen liegen im Speicherbereich der App. Für ioBroker- und SMB-Verbindungsdaten wird verschlüsselte Speicherung genutzt, soweit diese verfügbar ist; bei technischen Problemen ist ein Fallback ohne zusätzliche Verschlüsselung möglich. Lokale Verbindungen können je nach verwendetem Protokoll unverschlüsselt sein, insbesondere bei HTTP und RTSP.</p>
+    <p>Bei aktivierter App-Sperre werden Sperreinstellungen und ein PIN-Prüfwert lokal gespeichert. Für biometrische Entsperrung erhält die App von Android nur das Authentifizierungsergebnis, keine Fingerabdruck- oder Gesichtsvorlagen.</p>
+
+    <h2>3. Export, Import und SMB-Synchronisierung</h2>
+    <p>Exporte und SMB-Sicherungen können deine Konfiguration einschließlich Gerätenamen, lokalen Adressen, Bildern und Verbindungseinstellungen enthalten. Einige Benutzernamen und Serverangaben sowie gegebenenfalls Zugangsdaten in URLs sind bereits Teil der Konfiguration. Bei aktivierter Sicherung von Zugangsdaten werden zusätzlich ioBroker-Zugangsdaten aufgenommen. Ein Export enthält dann auch das SMB-Passwort; beim SMB-Abgleich werden die SMB-Verbindungseinstellungen einschließlich dieses Passworts nicht übertragen. Beim Import werden die enthaltenen Daten auf deinem Gerät eingelesen.</p>
+    <p>Der SMB-Abgleich überträgt diese Daten an deine gewählte Serverfreigabe und liest sie von dort ein, gegebenenfalls nach Zeitplan im Hintergrund. Berechtigte Benutzer und verbundene Tasbrokio-Installationen können darauf zugreifen. Beim Teilen eines Exports erhält die gewählte App oder deren Dienst die Datei. Sicherungsdateien sind nicht verschlüsselt.</p>
+
+    <h2>4. Premium und Google Play</h2>
+    <p>Premium wird als Einmalkauf über Google Play Billing angeboten. Google wickelt Kauf, Wiederherstellung und Berechtigungsprüfung ab und verarbeitet dabei Konto-, Kauf-, Zahlungs- und technische Daten nach seinen eigenen Datenschutzinformationen. Die App verarbeitet die zur Freischaltung notwendigen Kaufdaten, prüft die Kaufsignatur lokal und bestätigt Käufe gegenüber Google Play. Premium-Status und Prüfzeitpunkt werden lokal gespeichert. Ein Kaufprüfungsserver des Entwicklers wird nicht verwendet; die App sendet uns keine Kaufdaten und erhält keine vollständigen Zahlungsdaten wie Kreditkartennummern. Google Play kann Internetzugang benötigen.</p>
+    <p>Weitere Informationen: <a href="https://policies.google.com/privacy">Google-Datenschutzerklärung</a>.</p>
+
+    <h2>5. Diagnose, Werbung und Kontaktaufnahme</h2>
+    <p>Tasbrokio verwendet keine Werbung oder Tracking. Fehlerprotokolle bleiben lokal und werden nicht automatisch an uns übermittelt. Eine unabhängige Diagnosedatenerfassung durch Android oder Google Play richtet sich nach deren Einstellungen und Datenschutzinformationen.</p>
+    <p>Wenn du uns kontaktierst oder freiwillig Fehlerberichte, Screenshots oder Sicherungen übermittelst, verarbeiten wir deine Kontaktdaten und den Inhalt zur Bearbeitung der Anfrage. Prüfe solche Dateien zuvor auf Zugangsdaten und Informationen über andere Personen.</p>
+    <p>Für den Empfang und Versand von E-Mails verwenden wir Gmail von Google. Dabei verarbeitet Google E-Mail-Adressen, Nachrichteninhalte, Anhänge und technische Verbindungsdaten. Eine Verarbeitung außerhalb der EU/des EWR, insbesondere in den USA, ist möglich. Weitere Informationen zur Verarbeitung und zu den Übermittlungsgrundlagen findest du in der <a href="https://policies.google.com/privacy?hl=de">Google-Datenschutzerklärung</a>.</p>
+
+    <h2>6. Zwecke, Rechtsgrundlagen und Empfänger</h2>
+    <ul>
+      <li><strong>Lokale App-Funktionen und Premium:</strong> Die Verarbeitung dient der Anzeige und Steuerung deiner Systeme beziehungsweise der Premium-Freischaltung. Die in Abschnitt 2 beschriebenen Daten und die von der App verarbeiteten Kaufdaten erhalten wir als Entwickler nicht. Die Verarbeitung durch Google Play wird in Abschnitt 4 beschrieben.</li>
+      <li><strong>Kontaktanfragen:</strong> Vertragsbezogene Anfragen bearbeiten wir auf Grundlage von Art. 6 Abs. 1 Buchst. b DSGVO. Für sonstige Anfragen gilt Art. 6 Abs. 1 Buchst. f DSGVO; unser berechtigtes Interesse ist die Beantwortung deiner Anfrage und die Bearbeitung gemeldeter Probleme.</li>
+      <li><strong>Abruf dieser Webseite:</strong> Die Angaben zu Hosting, Rechtsgrundlage und möglichen Drittlandübermittlungen stehen in Abschnitt 9.</li>
+    </ul>
+    <p>Die oben beschriebenen Datenflüsse sind zu unterscheiden: Lokale Smart-Home-Daten gehen an die von dir eingerichteten Dienste und gewählten SMB- oder Dateiempfänger. Kaufdaten werden durch Google Play verarbeitet; bei einer Kontaktaufnahme erhalten wir und die in Abschnitt 5 genannten Dienstleister die übermittelten Daten. Die Verarbeitung durch Google kann Übermittlungen außerhalb der EU/des EWR umfassen; Einzelheiten stehen in Googles Datenschutzinformationen.</p>
+
+    <h2>7. Aufbewahrung und Löschung</h2>
+    <p>Lokale Einstellungen und Konfigurationen bleiben grundsätzlich gespeichert, bis du sie in der App entfernst, den App-Speicher über Android löschst oder die App deinstallierst. Temporäre Daten können durch die App oder Android bereinigt werden.</p>
+    <p>Das Entfernen lokaler App-Daten löscht keine bereits exportierten Dateien, SMB-Sicherungen, Daten in anderen Tasbrokio-Installationen oder Daten bei Google und anderen Empfängern. Diese Kopien sind dort gesondert zu verwalten.</p>
+    <p>Nachrichten und Anhänge aus Kontaktanfragen löschen wir, sobald die Anfrage abgeschlossen ist und keine weitere Aufbewahrung erforderlich ist. Eine weitere Aufbewahrung kann insbesondere wegen gesetzlicher Aufbewahrungspflichten oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich sein. In diesem Fall beschränken wir die weitere Nutzung auf diesen Zweck und löschen die Daten, sobald der Aufbewahrungsgrund entfällt.</p>
+
+    <h2>8. Deine Rechte</h2>
+    <p>Soweit die gesetzlichen Voraussetzungen erfüllt sind, hast du gegenüber dem jeweiligen Verantwortlichen Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit. Bei Verarbeitungen auf Grundlage berechtigter Interessen kannst du aus Gründen deiner besonderen Situation widersprechen. Eine erteilte Einwilligung kannst du jederzeit für die Zukunft widerrufen. Du kannst dich bei einer Datenschutzaufsichtsbehörde beschweren, insbesondere an deinem gewöhnlichen Aufenthaltsort, Arbeitsplatz oder dem Ort des vermuteten Verstoßes. Für Fragen zu Verarbeitungen durch uns nutze den oben genannten Datenschutz-Kontakt. Auf ausschließlich auf deinem Gerät gespeicherte Daten haben wir keinen Fernzugriff.</p>
+
+    <h2>9. Abruf dieser Webseite</h2>
+    <p>Diese Seite setzt selbst keine Cookies und lädt keine externen Analysewerkzeuge, Schriftarten oder Medien. Für die Bereitstellung und Sicherheit kann der Hosting-Anbieter technische Verbindungsdaten wie IP-Adresse, Zeitpunkt, aufgerufenen Pfad und Browserkennung verarbeiten.</p>
+    <p>Diese Seite wird über GitHub Pages bereitgestellt. Anbieter: GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA.</p>
+    <p>GitHub protokolliert und speichert beim Seitenabruf die IP-Adresse zu Sicherheitszwecken, auch ohne GitHub-Anmeldung. Eine feste Speicherdauer speziell für GitHub-Pages-Zugriffsprotokolle wird in den verlinkten Informationen nicht genannt.</p>
+    <p>Unser Einsatz des Hostings beruht auf Art. 6 Abs. 1 Buchst. f DSGVO. Unser berechtigtes Interesse ist die zuverlässige und sichere Bereitstellung dieser Informationsseite.</p>
+    <p>GitHub verarbeitet Daten auch in den USA und weiteren Ländern. Informationen zu Empfängern, Aufbewahrung und Übermittlungsgrundlagen findest du in der <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub-Datenschutzerklärung</a>. Den Hinweis zur IP-Protokollierung enthält die <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages">GitHub-Pages-Dokumentation</a>.</p>
+
+  </section>
+
+  <hr />
+
+  <section id="en" lang="en" aria-labelledby="en-title">
+    <h2 id="en-title">Privacy Policy for Tasbrokio</h2>
+    <p class="meta">Last updated: 18 October 2026</p>
+    <p>This policy describes the processing of personal data when using the Tasbrokio Android app and accessing this information page. Tasbrokio displays and controls local smart home systems.</p>
+
+    <h2>1. Controller and contact</h2>
+    <address>
+      Privacy contact: <a href="mailto:bigspeakersoft@gmail.com">bigspeakersoft@gmail.com</a>
+    </address>
+
+    <h2>2. Local processing</h2>
+    <p>Tasbrokio requires no account with the app provider and uses no smart home cloud service of its own. The app sends no data to us as its developer. Configurations, custom images, settings and credentials are stored on your Android device. For display, control and device discovery, the app communicates with your configured local devices and servers. This involves sending network addresses, requests, control commands and, where required, credentials, and retrieving device states, readings and camera images, including audio where applicable.</p>
+    <p>Embedded local websites may use cookies and local web storage and send entered data to their service. Processing by connected services is also subject to their operators' privacy information.</p>
+    <p>Smart home connections are technically restricted to local network destinations. Configurations and settings are stored in the app's storage area. ioBroker and SMB connection details use encrypted storage where available; technical issues may result in a fallback without additional encryption. Local connections may be unencrypted depending on the protocol used, particularly HTTP and RTSP.</p>
+    <p>When app lock is enabled, lock settings and a PIN verification value are stored locally. For biometric unlocking, the app receives only Android's authentication result, not fingerprint or facial templates.</p>
+
+    <h2>3. Export, import and SMB synchronisation</h2>
+    <p>Exports and SMB backups may contain your configuration, including device names, local addresses, images and connection settings. Some usernames and server details, and any credentials embedded in URLs, are already part of the configuration. Enabling credential backup additionally includes ioBroker credentials. An export then also includes the SMB password; SMB synchronisation does not transfer the SMB connection settings, including that password. Importing reads the included data onto your device.</p>
+    <p>SMB synchronisation sends this data to your selected server share and reads it from there, including scheduled background synchronisation where configured. Authorised users and connected Tasbrokio installations can access it. Sharing an export passes the file to your selected app or its service. Backup files are not encrypted.</p>
+
+    <h2>4. Premium and Google Play</h2>
+    <p>Premium is offered as a one-time purchase through Google Play Billing. Google handles purchasing, restoration and entitlement verification and processes account, purchase, payment and technical data under its own privacy information. The app processes purchase data needed to unlock Premium, verifies purchase signatures locally and acknowledges purchases through Google Play. Premium status and the verification timestamp are stored locally. No purchase verification server run by the developer is used; the app sends us no purchase data and receives no full payment details such as credit card numbers. Google Play may require internet access.</p>
+    <p>Further information: <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+    <h2>5. Diagnostics, advertising and contacting us</h2>
+    <p>Tasbrokio uses no advertising or tracking. Error logs remain local and are not automatically sent to us. Independent diagnostic collection by Android or Google Play is governed by their settings and privacy information.</p>
+    <p>If you contact us or voluntarily send error reports, screenshots or backups, we process your contact details and the contents to handle your request. Check such files for credentials and information about other people beforehand.</p>
+    <p>We use Gmail by Google to receive and send emails. Google processes email addresses, message contents, attachments and technical connection data. Processing outside the EU/EEA, particularly in the United States, is possible. For further information on processing and transfer safeguards, see the <a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a>.</p>
+
+    <h2>6. Purposes, legal bases and recipients</h2>
+    <ul>
+      <li><strong>Local app features and Premium:</strong> Processing serves to display and control your systems or unlock Premium. We as the developer do not receive the data described in section 2 or the purchase data processed by the app. Processing by Google Play is described in section 4.</li>
+      <li><strong>Contact enquiries:</strong> We handle contractual enquiries under Article 6(1)(b) GDPR. For other enquiries, Article 6(1)(f) GDPR applies; our legitimate interest is answering your enquiry and handling reported problems.</li>
+      <li><strong>Accessing this website:</strong> Hosting details, the legal basis and possible international transfers are described in section 9.</li>
+    </ul>
+    <p>The data flows described above are distinct: local smart home data goes to the services you configure and the SMB or file recipients you select. Purchase data is processed through Google Play; when you contact us, we and the service providers named in section 5 receive the data you send. Google's processing may involve transfers outside the EU/EEA; details are provided in Google's privacy information.</p>
+
+    <h2>7. Retention and deletion</h2>
+    <p>Local settings and configurations generally remain stored until you remove them in the app, clear app storage through Android or uninstall the app. Temporary data may be cleared by the app or Android.</p>
+    <p>Removing local app data does not delete previously exported files, SMB backups, data in other Tasbrokio installations or data held by Google and other recipients. Manage these copies separately.</p>
+    <p>We delete messages and attachments from contact enquiries once the enquiry is closed and further retention is no longer necessary. Further retention may be necessary, in particular, to comply with statutory retention obligations or to establish, exercise or defend legal claims. In such cases, we restrict further use to that purpose and delete the data once the reason for retention no longer applies.</p>
+
+    <h2>8. Your rights</h2>
+    <p>Subject to the applicable legal requirements, you have rights to access, rectification, erasure, restriction of processing and data portability against the respective controller. For processing based on legitimate interests, you may object on grounds relating to your particular situation. You may withdraw consent at any time for the future. You may complain to a data protection supervisory authority, particularly in your place of habitual residence, work or the alleged infringement. For questions about processing by us, use the privacy contact above. We have no remote access to data stored solely on your device.</p>
+
+    <h2>9. Accessing this website</h2>
+    <p>This page itself sets no cookies and loads no external analytics tools, fonts or media. To deliver and secure the page, the hosting provider may process technical connection data such as IP address, timestamp, requested path and browser identifier.</p>
+    <p>This page is hosted on GitHub Pages. Provider: GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA.</p>
+    <p>GitHub logs and stores visitors' IP addresses for security purposes, even without a GitHub login. The linked information does not specify a fixed retention period for GitHub Pages access logs.</p>
+    <p>Our use of hosting is based on Article 6(1)(f) GDPR. Our legitimate interest is the reliable and secure delivery of this information page.</p>
+    <p>GitHub also processes data in the United States and other countries. For information on recipients, retention and transfer safeguards, see the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. The IP logging notice is provided in the <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages">GitHub Pages documentation</a>.</p>
+
+  </section>
+</main>
+</body>
+</html>
